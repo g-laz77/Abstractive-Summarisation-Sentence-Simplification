@@ -3,9 +3,9 @@ import subprocess
 import logging
 import os
 
-model_path = "model/"
-model_pattern = "model/{}.ckpt-{}"
-data_pattern = "data/test.{}.txt"
+model_path = "models/"
+model_pattern = "models/{}.ckpt-{}"
+data_pattern = "data/Gigaword/test.{}.txt"
 OUTPUT_DIR = "output/"
 OUTPUT_PATTERN = OUTPUT_DIR + "{dataset}.{description}.txt"
 MAX_KEEP = 1

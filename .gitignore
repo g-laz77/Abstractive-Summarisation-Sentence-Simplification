@@ -2,6 +2,8 @@
 summary.tar.gz
 data/
 TensorFlow-Summarization/
+tf11.zip
+models/
 
 
 # Byte-compiled / optimized / DLL files

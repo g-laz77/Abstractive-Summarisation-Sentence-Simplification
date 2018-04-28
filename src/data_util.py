@@ -191,8 +191,8 @@ if __name__ == "__main__":
                         datefmt='%b %d %H:%M')
 
     docid, sumid, doc_dict, sum_dict = load_data(
-        "data/train.article.txt", "data/train.title.txt",
-        "data/doc_dict.txt", "data/sum_dict.txt",
+        "data/Gigaword/train.article.txt", "data/Gigaword/train.title.txt",
+        "data/Gigaword/doc_dict.txt", "data/Gigaword/sum_dict.txt",
         30000, 30000)
 
     checkid = np.random.randint(len(docid))
@@ -201,7 +201,7 @@ if __name__ == "__main__":
     print(sumid[checkid], sen_map2tok(sumid[checkid], sum_dict[1]))
 
     docid, sumid = load_valid_data(
-        "data/valid.article.filter.txt", "data/valid.title.filter.txt",
+        "data/Gigaword/valid.article.filter.txt", "data/Gigaword/valid.title.filter.txt",
         doc_dict, sum_dict)
 
     checkid = np.random.randint(len(docid))
@@ -209,7 +209,7 @@ if __name__ == "__main__":
     print(docid[checkid], sen_map2tok(docid[checkid], doc_dict[1]))
     print(sumid[checkid], sen_map2tok(sumid[checkid], sum_dict[1]))
 
-    docid = load_test_data("data/test.giga.txt", doc_dict)
+    docid = load_test_data("data/Gigaword/test.giga.txt", doc_dict)
     checkid = np.random.randint(len(docid))
     print(checkid)
     print(docid[checkid], sen_map2tok(docid[checkid], doc_dict[1]))
