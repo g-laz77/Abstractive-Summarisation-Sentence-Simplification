@@ -3,7 +3,9 @@ Given a complex sentence the task is to rewrite the sentence in a simpler form. 
 
 ## Tasks
 - [x] Setup train environment(tensorflow) and download Giga and CNN data set.
-- [ ] Setup the code for training.
+- [x] Setup the code for training.
+- [x] Train the model
+- [x] Test the trained model on test dataset.
 
 ## References
 
