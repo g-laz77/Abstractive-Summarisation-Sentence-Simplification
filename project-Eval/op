@@ -1,0 +1,144 @@
+('Sentence:', 0)
+('Human:', 'new zealand rates cut deeper than expected\n')
+('Model:', 'new zealand cuts interest rate\n')
+Precision is :0.53488372093
+Recall is :0.741935483871
+F Score is :0.621622572936
+()
+('Sentence:', 1)
+('Human:', 'tuareg rebels in mali free last hostages\n')
+('Model:', 'tuareg rebel chief releases last ## hostages\n')
+Precision is :0.80487804878
+Recall is :0.733333333333
+F Score is :0.767442810573
+()
+('Sentence:', 2)
+('Human:', 'bolivia president orders us envoy expelled\n')
+('Model:', 'bolivia president declares us ambassador\n')
+Precision is :0.651162790698
+Recall is :0.682926829268
+F Score is :0.666667616695
+()
+('Sentence:', 3)
+('Human:', 'pakistan army chief criticises us raids\n')
+('Model:', 'pakistan army chief slams us troops\n')
+Precision is :0.725
+Recall is :0.805555555556
+F Score is :0.763158844875
+()
+('Sentence:', 4)
+('Human:', 'obama accuses mccain of lying over lipstick smear\n')
+('Model:', 'obama accuses mccain of lies\n')
+Precision is :0.58
+Recall is :1.0
+F Score is :0.734178168723
+()
+('Sentence:', 5)
+('Human:', 'osce calls for cooperation in fight against human trafficking\n')
+('Model:', 'osce urges crackdown on human trafficking\n')
+Precision is :0.532258064516
+Recall is :0.785714285714
+F Score is :0.634616336465
+()
+('Sentence:', 6)
+('Human:', "russia 's lavrov in poland to discuss us missile shield georgia\n")
+('Model:', 'russian fm arrives in warsaw\n')
+Precision is :0.296875
+Recall is :0.655172413793
+F Score is :0.408603107619
+()
+('Sentence:', 7)
+('Human:', 'pakistan army chief criticises us raids\n')
+('Model:', 'pakistan army chief slams us troops\n')
+Precision is :0.725
+Recall is :0.805555555556
+F Score is :0.763158844875
+()
+('Sentence:', 8)
+('Human:', 'euro falls below #.## dlrs on eurozone recession fears\n')
+('Model:', 'euro falls below #.## dollars\n')
+Precision is :0.509090909091
+Recall is :0.933333333333
+F Score is :0.658824483737
+()
+('Sentence:', 9)
+('Human:', 'both mugabe and tsvangirai hint zimbabwe deal is close\n')
+('Model:', 'zimbabwe power-sharing talks end without deal\n')
+Precision is :0.363636363636
+Recall is :0.434782608696
+F Score is :0.396040554357
+()
+('Sentence:', 10)
+('Human:', 'ny mayor lambastes ground zero delays\n')
+('Model:', 'bloomberg blasts #\\/## at #\\/## site\n')
+Precision is :0.342105263158
+Recall is :0.351351351351
+F Score is :0.346667616676
+()
+('Sentence:', 11)
+('Human:', 'lehman bros to sell off assets amid fresh losses\n')
+('Model:', 'lehman brothers to sell assets to shore up assets\n')
+Precision is :0.734693877551
+Recall is :0.72
+F Score is :0.727273677278
+()
+('Sentence:', 12)
+('Human:', 'six dead as powerful quake hits southern iran\n')
+('Model:', 'quake kills six in southern iran\n')
+Precision is :0.5
+Recall is :0.69696969697
+F Score is :0.582279432367
+()
+('Sentence:', 13)
+('Human:', 'wall street struggles higher lehman in focus\n')
+('Model:', 'us stocks wobble as investors mull lehman news\n')
+Precision is :0.488888888889
+Recall is :0.468085106383
+F Score is :0.478261819589
+()
+('Sentence:', 14)
+('Human:', 'retrial ordered in britain over alleged transatlantic bomb plot\n')
+('Model:', 'retrial in atlantic ocean plot\n')
+Precision is :0.421875
+Recall is :0.870967741935
+F Score is :0.568422008665
+()
+('Sentence:', 15)
+('Human:', 'georgia accuses russia of breaking truce\n')
+('Model:', 'georgia police shot dead\n')
+Precision is :0.414634146341
+Recall is :0.68
+F Score is :0.51515246809
+()
+('Sentence:', 16)
+('Human:', 'british pm denies backing obama in magazine article\n')
+('Model:', 'british pm denies obama comments\n')
+Precision is :0.538461538462
+Recall is :0.848484848485
+F Score is :0.65882448191
+()
+('Sentence:', 17)
+('Human:', "kenyan police offer obama 's grandmother security after robbery\n")
+('Model:', 'kenyan police arrest obama grandmother\n')
+Precision is :0.53125
+Recall is :0.871794871795
+F Score is :0.660195127703
+()
+('Sentence:', 18)
+('Human:', 'france seeks european shared vision for arctic issues\n')
+('Model:', 'eu presidency calls for joint european policy\n')
+Precision is :0.351851851852
+Recall is :0.413043478261
+F Score is :0.38000095032
+()
+('Sentence:', 19)
+('Human:', 'wall street struggles higher lehman in focus')
+('Model:', 'us stocks wobble as investors mull lehman news\n')
+Precision is :0.477272727273
+Recall is :0.446808510638
+F Score is :0.461539411593
+()
+----------------------Final eval-------------------
+('Precision:', 0.5261909095588589)
+('Recall:', 0.697290750246924)
+('F1-score:', 0.589646516752309)

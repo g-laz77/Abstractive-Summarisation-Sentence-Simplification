@@ -10,8 +10,8 @@ OUTPUT_DIR = "output/"
 OUTPUT_PATTERN = OUTPUT_DIR + "{dataset}.{description}.txt"
 MAX_KEEP = 1
 
-datasets = ["giga", "duc2003", "duc2004"]
-geneos = [True, False, False]
+datasets = ["eval_articles"]
+geneos = [True]
 beam_searchs = [1, 10]
 
 test_params = {
